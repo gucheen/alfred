@@ -1,0 +1,27 @@
+{
+  "name": "@gucheen/alfred",
+  "version": "1.0.0",
+  "description": "gucheen 的划水 Alfred 脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": [
+    "alfred",
+    "smzdm",
+    "v2ex",
+    "emoji"
+  ],
+  "homepage": "https://github.com/gucheen/alfred",
+  "author": "Cheng Gu <guchengf@gmail.com> (https://www.guchengf.me)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gucheen/alfred.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.10.0"
+  }
+}
