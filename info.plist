@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>139D58E9-35DF-4146-B52E-8AFCAD67E546</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF9EF041-CD51-4575-9D50-3AA65466B5E7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>27B05901-0527-4CA4-88B7-F18544571F85</key>
 		<array>
 			<dict>
@@ -265,6 +278,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>FF9EF041-CD51-4575-9D50-3AA65466B5E7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -364,6 +396,13 @@
 			<integer>290</integer>
 			<key>ypos</key>
 			<integer>395</integer>
+		</dict>
+		<key>FF9EF041-CD51-4575-9D50-3AA65466B5E7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>520</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
