@@ -7,6 +7,11 @@ const exchangeRateApi = `http://data.fixer.io/api/latest?access_key=${FIXER_KEY}
 const matches = alfy.input.match(/([\d\.,]+)([A-Za-z]{3})/);
 
 if (matches === null) {
+  alfy.output([
+    {
+      title: 'waiting...'
+    },
+  ]);
   return;
 }
 
