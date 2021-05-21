@@ -20,7 +20,7 @@ const { rates } = await alfy.fetch(exchangeRateApi, {
 
 const ba = new Big(1);
 const direactRate = ba.div(rates[prettifyCode]).times(rates.CNY);
-const result = direactRate.times(amount.replaceAll(',', '')).toFixed(2);
+const result = direactRate.times(amount.replace(/,/g, '')).toFixed(2);
 
 alfy.output([
   {
