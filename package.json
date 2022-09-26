@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "gucheen 的划水 Alfred 脚本",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "alfy-init",
@@ -22,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "alfy": "^0.10.0",
-    "big.js": "^6.0.3"
+    "alfy": "^1.0.0",
+    "big.js": "^6.2.1"
   }
 }
